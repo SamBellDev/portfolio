@@ -24,7 +24,7 @@ const MyRouter = () => {
                                 <NavDropdown.Item href="#action/3.3">Project 2</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.4">Project 3</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/contact">Contact me</Nav.Lin
+                            <Nav.Link href="/contact">Contact me</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
