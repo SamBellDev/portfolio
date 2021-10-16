@@ -20,9 +20,9 @@ const MyRouter = () => {
                             <NavDropdown title="Projects" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/projects">All projects</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.2">Project 1</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Project 2</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">Project 3</NavDropdown.Item>
+                                <NavDropdown.Item href='/projects/1'>Project 1</NavDropdown.Item>
+                                <NavDropdown.Item href={'/projects/2'}>Project 2</NavDropdown.Item>
+                                <NavDropdown.Item href={'/projects/3'}>Project 3</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="/contact">Contact me</Nav.Link>
                         </Nav>
