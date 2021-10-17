@@ -3,12 +3,13 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 const ProjectsPage = () => {
     return (
         <main>
+
             <section className="py-5 text-center container">
                 <div className="row py-lg-5">
                     <div className="col-lg-6 col-md-8 mx-auto">
                         <h1 className="fw-light"> Project portfolio < /h1>
-                        <p className="lead text-muted">A collection of my personal projects with details about the stacks
-                        used and why I built it.</p>
+                        <p className="lead text-muted">A few of my personal projects with details about the stacks
+                        used and why I built them the way I did.</p>
                     </div>
                 </div>
             </section>
@@ -22,7 +23,6 @@ const ProjectsPage = () => {
                     </div>
                 </div>
             </div>
-
 
         </main>
     )
